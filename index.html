@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="apple-mobile-web-app-title" content="Notification App" />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Notification App</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="requestPermission">Send Notifications</button>
+      <form id="notificationForm" class="hidden">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+        <label for="body">Body:</label>
+        <input type="text" id="body" name="body" required />
+        <button type="submit">Show Notification</button>
+        <div id="emptydiv">
+          <p id="textmessage"></p>
+        </div>
+      </form>
+      <div id="output" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

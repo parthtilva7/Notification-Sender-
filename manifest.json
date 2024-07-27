@@ -1,0 +1,9 @@
+{
+  "short_name": "Notification App",
+  "name": "Parth's Notification App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "burlywood",
+  "orientation": "portrait"
+}
